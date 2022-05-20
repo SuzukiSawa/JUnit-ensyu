@@ -31,7 +31,7 @@ class StringUtilsTest {
 	@Test
 	@DisplayName("aaaと取得するテスト")
 	void test() {
-		System.out.println("aaaと取得するテスが呼ばれました");
+		System.out.println("aaaと取得するテストが呼ばれました");
 		String result=StringUtils.toSnakeCase("aaa");
 		assertEquals("aaa", result, "aaaの取得が失敗");
 	}
